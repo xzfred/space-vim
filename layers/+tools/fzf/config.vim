@@ -57,7 +57,7 @@ else
   vnoremap <leader>rg :call spacevim#plug#fzf#RgVisual()<CR>
 
   " Mimic <C-R> in bash
-  cnoremap <C-R> :History:<CR>
+  " cnoremap <C-R> :History:<CR>
 
   nnoremap <LocalLeader>v :call spacevim#wrap#fzf#Open()<CR>
   nnoremap <LocalLeader>p :call spacevim#wrap#fzf#Rtp()<CR>

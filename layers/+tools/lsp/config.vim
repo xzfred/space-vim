@@ -41,7 +41,7 @@ function! s:coc() abort
   autocmd CursorHoldI * silent! call CocAction('showSignatureHelp')
 
   " Highlight symbol under cursor on CursorHold
-  autocmd CursorHold * silent call CocAction('highlight')
+ " autocmd CursorHold * silent call CocAction('highlight')
 
   " Remap for format selected region
   vmap <localleader>=  <Plug>(coc-format-selected)
